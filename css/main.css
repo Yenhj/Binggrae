@@ -470,6 +470,11 @@ em {
     padding: 11px 20px 11px 38px;
     background-color: #f7f7f7;
   }
+  .sidemenu .side-wrap .sidemenu-inner .side-nav .side-gnb .side-list .side-depth.active {
+    height: 0;
+    visibility: hidden;
+    padding: 0;
+  }
 }
 .sidemenu .side-wrap .sidemenu-inner .side-nav .side-gnb .side-list .side-depth li {
   position: relative;
