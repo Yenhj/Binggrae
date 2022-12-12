@@ -31,7 +31,6 @@
     function listToggle(toggleBtArr, toggleListArr) {
       toggleBtArr.addEventListener("click", function (event) {
         event.stopPropagation();
-        
         if (toggleListArr.style.display === "none") {
           toggleListArr.style.display = "block";
         } else {
